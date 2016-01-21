@@ -1,3 +1,41 @@
-p{
-	color:red;
+
+
+#container {
+		border: 1px solid #789;
+		background-color: #f0f8ff;
+		padding: 10px;
 }
+
+h1 {
+		font-family: playfair-display;
+		color: #800000;
+	 
+h2 {
+	
+
+}
+
+p {
+	line-height: 1.4;
+}
+
+
+
+a:link { 
+	color:#f0f8ff;
+	text-decoration:none;
+}
+
+a:visited {
+	color:black;
+}
+
+a:hover {
+	color:lightblue;
+}
+
+a:active {
+	color:deeppink;
+}
+
+	
