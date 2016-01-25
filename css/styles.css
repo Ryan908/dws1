@@ -4,8 +4,8 @@
 	float:left;
 	width:200px;
 	margin:10px;
-		
 }
+
 /* removed unordered default (bullet)*/ 
 ul {
 	list-style-type:none;
