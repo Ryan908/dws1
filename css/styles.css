@@ -1,6 +1,9 @@
 
 
-#container {
+#gallery {
+	float:left;
+	width:200px;
+	margin:10px;
 		
 }
 /* removed unordered default (bullet)*/ 
@@ -26,6 +29,7 @@ h1 {
 		text-shadow: 1px 1px 0px #000
 }	 
 
+/* Added css to paragraphs such as background color, borders, and shadowing*/
 p { 
 	background-color:#f5f5dc;
 	opacity: 0.70;
@@ -48,10 +52,10 @@ h2 {
 }
 
 p {
-
 	text-align:left;
 	line-height: 1.4;
 	width:500px;
+	
 }
 
 p.indent {
