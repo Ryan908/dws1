@@ -1,0 +1,103 @@
+
+
+#gallery {
+	float:left;
+	width:200px;
+	margin:10px;
+		
+}
+/* removed unordered default (bullet)*/ 
+ul {
+	list-style-type:none;
+}
+/* Displayed links as an inline-block instead of block*/
+li {
+	width:160px;
+	margin:10px;
+	display:inline-block;
+	padding: 25px;
+	text-align:center;
+	
+}
+/* applied css to heading */
+
+h1 {
+		font-family: playfair-display;
+		color: #800000;
+		text-align:center;
+		margin:35px auto;
+		text-shadow: 1px 1px 0px #000
+}	 
+
+/* Added css to paragraphs such as background color, borders, and shadowing*/
+p { 
+	background-color:#f5f5dc;
+	opacity: 0.70;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	box-shadow:0 0 10px #777;
+	-moz-box-shadow: 0 0 10px #777;
+	-webkit-box-shadow: 0 0 10px #777;
+}
+
+/* Centering box model*/ 	
+p {
+	margin: 10px auto;
+}
+
+/* centered headings*/ 
+h2 {
+	text-align:center;
+}
+
+p {
+	text-align:left;
+	line-height: 1.4;
+	width:500px;
+	
+}
+
+p.indent {
+	padding: 10px;
+}
+
+/*p {
+	background-image:url("../images/presence-ii.png");
+	background-position:center top;
+	}*/
+
+
+
+a:link { 
+	color:#f0f8ff;
+	text-decoration:none;
+}
+
+a:visited {
+	color:black;
+}
+
+a:hover {
+	color:lightblue;
+}
+
+a:active {
+	color:deeppink;
+}
+
+#header {
+	font-size:2.000em;
+}
+
+#container img {
+	float:left;
+	height:200px;
+	width:200px;
+}
+
+
+
+
+
+
