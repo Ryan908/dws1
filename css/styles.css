@@ -2,22 +2,36 @@
 
 #container {
 		
-		border: 1px solid #789;
-		background-color: #f0f8ff;
-		padding: 10px;
-		
 }
 
+ul {
+	list-style-type:none;
+}
 
-
+/* applied css to heading */
 
 h1 {
 		font-family: playfair-display;
 		color: #800000;
 		text-align:center;
 		margin:35px auto;
+		text-shadow: 1px 1px 0px #000
 }	 
 
+p { 
+	background-color:#f5f5dc;
+	opacity: 0.70;
+}
+
+/* Centering box model*/ 	
+p {
+	margin: 10px auto;
+}
+
+/* centered headings*/ 
+h2 {
+	text-align:center;
+}
 
 p {
 
@@ -26,9 +40,14 @@ p {
 	width:500px;
 }
 
-p {
-	background-image:url("images/presence-ii.png");
-	}
+p.indent {
+	padding: 10px;
+}
+
+/*p {
+	background-image:url("../images/presence-ii.png");
+	background-position:center top;
+	}*/
 
 
 
