@@ -1,8 +1,25 @@
 
 
-#gallery {
+/*#gallery {
 	float:left;
 	width:700px;
+	margin:10px;
+}*/
+
+#gallery img {
+	height:200px;
+	width:200px;
+}
+
+.column 1 of 2{
+	width:500px;
+	float: left;
+	margin: 10px;
+}
+
+.column 2 of 2{
+	width:250px;
+	float:left;
 	margin:10px;
 }
 
@@ -70,7 +87,7 @@ p.indent {
 
 
 a:link { 
-	color:#f0f8ff;
+	color:#1e90ff;
 	text-decoration:none;
 }
 
