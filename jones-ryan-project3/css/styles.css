@@ -5,23 +5,24 @@
 	width:700px;
 	margin:10px;
 }*/
+body {
+	width:960px;
+}
+
+#column1, #column2, #column3{
+	width:300;
+	float:left;
+	margin: 10px;
+}
+
 
 #gallery img {
 	height:200px;
 	width:200px;
 }
 
-.column 1 of 2{
-	width:500px;
-	float: left;
-	margin: 10px;
-}
 
-.column 2 of 2{
-	width:250px;
-	float:left;
-	margin:10px;
-}
+
 
 /* removed unordered default (bullet)*/ 
 ul {
@@ -29,7 +30,7 @@ ul {
 }
 /* Displayed links as an inline-block instead of block*/
 li {
-	width:160px;
+	width:150px;
 	margin:10px;
 	display:inline-block;
 	padding: 25px;
@@ -43,7 +44,7 @@ h1 {
 		color: #800000;
 		text-align:center;
 		margin:35px auto;
-		text-shadow: 1px 1px 0px #000
+		text-shadow: 1px 1px 0px #000;
 }	 
 
 /* Added css to paragraphs such as background color, borders, and shadowing*/
